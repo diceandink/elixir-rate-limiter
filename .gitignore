@@ -1,0 +1,23 @@
+# Elixir Artifacts
+/_build
+/deps
+/*.ez
+
+# Phoenix Artifacts
+/priv/static/assets
+
+# Dev and Test configs
+/config/*.secret.exs
+
+# Local artifacts
+/node_modules
+/assets/node_modules
+.elixir_ls/
+.tools/
+
+# CLI Test Tool deps
+/.elixir_install
+
+# System
+.DS_Store
+Thumbs.db
